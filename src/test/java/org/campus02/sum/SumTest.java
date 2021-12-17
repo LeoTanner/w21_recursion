@@ -51,4 +51,10 @@ class SumTest {
         assertEquals(4, sum.recursiveSum(list1));
         assertEquals(10, sum.recursiveSum(list2));
     }
+
+    @Test
+    void recursivSumAcc() {
+        assertEquals(4, sum.recursiveSumAcc(list1, 0));
+        assertEquals(10, sum.recursiveSumAcc(list2,0));
+    }
 }

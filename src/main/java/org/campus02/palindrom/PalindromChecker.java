@@ -14,7 +14,8 @@ public class PalindromChecker {
      * @param word the text
      * @return true in case of palindrome found
      */
-    public boolean check(String word) {
+    public boolean check(String word)
+    {
         return true;
     }
 }

@@ -8,6 +8,10 @@ public class Factorial {
      * @return Produkt der Multiplikationen
      */
     public int fact(int n) {
-        return 0;
+        if (n == 1)
+        {
+            return n;
+        }
+        return n*fact(n-1);
     }
 }
